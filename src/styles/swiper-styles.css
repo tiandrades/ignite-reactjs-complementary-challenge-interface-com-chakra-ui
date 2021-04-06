@@ -1,0 +1,29 @@
+.swiper-button-next::after {
+  color: #FFBA08;
+}
+
+.swiper-button-prev::after {
+  color: #FFBA08;
+}
+
+.swiper-button-disabled {
+  color: rgba(255, 186, 8, 0.5);
+}
+
+span.swiper-pagination-bullet {
+  opacity: 1;
+  background: #999999;
+  width: 16px;
+  height: 16px;
+}
+
+span.swiper-pagination-bullet-active {
+  background: #FFBA08;
+}
+
+@media (max-width: 480px) {
+  span.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+}
